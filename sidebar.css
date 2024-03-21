@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:white
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+ 
+}
+
+.sidebar {
+    width: 10vw;
+    height: 100vh;
+    background-color: silver;
+    border: 2px solid;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+font-size: larger;
+  
+}
+
+nav {
+    /* flex: 1; */
+}
+
+nav a:hover {
+    color: chocolate;
+}
+
+nav a {
+    text-decoration: none;
+    padding-top: 15px;
+    display: block;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+
+}
+
+/* sidebar right side data */
+.class1{
+    font-size: 60px;
+}
+
+.main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:black;
+font-style: italic;
+padding-top: 70px ;
+/* margin: 10px;" */
+float: left;
+/* display: inline; */
+width: 50%;
+margin-left: 60px
+
+}
+
+.myepic{    
+    
+    float: right;
+    /* width: 8%; */
+    margin-bottom: 70%;
+    /* width: 200px;
+    height: 200px; */
+    margin-top: 20%;
+    margin-right: 20%;
+    size: 2px;
+    size:30% ;
+}
+
+.button{
+    width: 80px; /* Set the desired width */
+      height: 50px; 
+      font-size: 16px;
+      display: inline;
+      
+      /* padding: 0%; */
+      margin: 7%;
+      color: rgb(165, 42, 42);
+}
